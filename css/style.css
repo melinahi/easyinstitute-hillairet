@@ -1,0 +1,76 @@
+.logo{
+    grid-column: 1/1;
+}
+
+.logo img{
+    width: 150px;    
+}
+
+.empresa {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+    grid-column: 2 / 7;
+}
+.empresa h1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #f2501f;    
+    height: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+}
+.menu a{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-decoration: none;
+    justify-self: center;
+    /* sacar */
+    /* border: solid;  */
+}
+.video{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp {
+    width: 50px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+body{
+    /* background-image: url(../assets/img/probando.svg) */
+}
+
+.header{
+    /* background-image: url(../assets/img/probando2.svg); */
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+/* -------------------------------------- */
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid {
+    display: grid;  
+                    /* 4 columnas */
+    grid-template-columns: 500px 300px; 
+                       /* 2 filas */
+    grid-template-rows: 40px 100px; 
+ }
+
